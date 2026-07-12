@@ -3,7 +3,7 @@ name: AI Push
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 2,8,13 * * *'
+    - cron: '0,30 1-19 * * *'
 
 jobs:
   push:
